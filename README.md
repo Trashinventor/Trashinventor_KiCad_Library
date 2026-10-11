@@ -1,2 +1,2 @@
-# Trashinventor_KiCad_Library-
+# Trashinventor_KiCad_Library
 Library for custom KiCad-parts
