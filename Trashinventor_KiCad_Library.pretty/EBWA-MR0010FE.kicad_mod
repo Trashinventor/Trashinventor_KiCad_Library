@@ -1,0 +1,136 @@
+(footprint "EBWA-MR0010FE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7eddfa7-8302-4a45-8971-8c892fb8aee1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EBWA-MR0010FE"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78fb0c91-72c9-48a2-941c-f49503e0ec67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "252b7e69-57be-4d0a-9898-f560a5d69f3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "199d9cf4-4fda-416b-bc13-6c8dddc9062f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.5 -4)
+		(end 14.5 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4538c766-56ea-4fe8-8f62-03ec91c02be7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b2dddc94-df34-4727-9e76-61f158f7c378")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 5.2 6.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ec1085e-a07d-4da4-8415-2236a8e7ff94")
+	)
+	(pad "2" smd rect
+		(at 10.8 0)
+		(size 5.2 6.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ee141a53-8051-4b1a-94fc-d1d27d27482c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "e5f2efcb-da4f-4cee-ba5d-7749e6fe3ef3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.5 -4) (xy 14.5 -4) (xy 14.5 4) (xy -3.5 4)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Morit/Downloads/EBWA-MR0010FE.stp"
+		(offset
+			(xyz 5.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,147 @@
+(footprint "C_SMD_5040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7eddfa7-8302-4a45-8971-8c892fb8aee1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C_SMD_5040"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78fb0c91-72c9-48a2-941c-f49503e0ec67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "252b7e69-57be-4d0a-9898-f560a5d69f3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "199d9cf4-4fda-416b-bc13-6c8dddc9062f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.1 -6.35)
+		(end 5.1 6.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0204ad28-237c-4a11-8da3-0661d6b1ca9d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b2dddc94-df34-4727-9e76-61f158f7c378")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -7)
+		(size 6 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e42d02f-4cc0-4b7c-bd0b-71e947021da3")
+	)
+	(pad "2" smd rect
+		(at 0 7)
+		(size 6 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "428b12cb-a3d2-467f-812f-9aaf1902a01b")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "d3fb7434-e9e2-4102-83db-31c640884fad")
+		(name "5040")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5.1 -6.35) (xy 5.1 -6.35) (xy 5.1 6.35) (xy -5 6.35)
+			)
+		)
+	)
+	(group ""
+		(uuid "c49e4063-b52b-4fd0-8bfe-6ae46bdd1e21")
+		(members "0204ad28-237c-4a11-8da3-0661d6b1ca9d" "4b7adb8d-710c-4e1d-b39c-28069678fb18"
+			"d3fb7434-e9e2-4102-83db-31c640884fad"
+		)
+	)
+	(group ""
+		(uuid "4b7adb8d-710c-4e1d-b39c-28069678fb18")
+		(members "428b12cb-a3d2-467f-812f-9aaf1902a01b" "7e42d02f-4cc0-4b7c-bd0b-71e947021da3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2220_5750Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 2.2 2 2.1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

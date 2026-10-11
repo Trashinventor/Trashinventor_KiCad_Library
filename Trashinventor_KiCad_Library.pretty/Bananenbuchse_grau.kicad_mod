@@ -1,0 +1,271 @@
+(footprint "Bananenbuchse_grau"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.54 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ebee1fea-8f16-4073-b30f-a3a9a94ba491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Bananenbuchse_grau"
+		(at -2.54 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "07e4ed9e-ed03-4624-aa02-fec6f3fbb622")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3629f844-78d2-4ae5-bae8-009cd5d3bc09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e21446eb-671b-4dc3-8022-fd6a6e0b3755")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -13.6 -4.98)
+		(end -13.6 7.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "247703c5-8ba9-4262-a5a5-e2f712f67c01")
+	)
+	(fp_line
+		(start -13.6 7.22)
+		(end -7 7.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73cf4b8c-e49f-4703-84f0-6f3f63cbbb76")
+	)
+	(fp_line
+		(start -7 -4.98)
+		(end -13.6 -4.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37543bc9-fc4e-4c9a-b525-4fc58a94a7f8")
+	)
+	(fp_line
+		(start -5.7 7.22)
+		(end 3.2 7.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "371ca703-3e41-4342-a5ff-4d1e9eec6ffc")
+	)
+	(fp_line
+		(start 3.2 -4.98)
+		(end -5.7 -4.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb15bc1e-63f6-4806-bc22-da292b96a510")
+	)
+	(fp_line
+		(start 4.4 7.22)
+		(end 5.6 7.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86ea2bdb-e333-4326-9970-b8c944d6396e")
+	)
+	(fp_line
+		(start 5.6 -4.98)
+		(end 4.4 -4.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a361bced-8085-4ade-adc1-9ffa9670ed7b")
+	)
+	(fp_line
+		(start 5.6 7.22)
+		(end 5.6 -4.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34db8704-0fde-4ebd-ac54-94d430055f6f")
+	)
+	(fp_rect
+		(start 6 7.62)
+		(end -28 -5.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ca36c9c2-ba7c-4c39-b7e2-80f2cbdf741d")
+	)
+	(fp_line
+		(start -27.5 1.12)
+		(end -21 1.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "307efbae-c1c8-43bd-8af3-5cc6a214abef")
+	)
+	(fp_line
+		(start -21 1.12)
+		(end -22 0.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "389ca3fc-f41f-481e-8b66-896beb8f4226")
+	)
+	(fp_line
+		(start -21 1.12)
+		(end -22 2.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1debdb5b-1dad-4a22-aaf8-63e446a61179")
+	)
+	(fp_rect
+		(start -27.5 -0.88)
+		(end -7.5 3.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4b75c0fe-90bc-49dd-bd4d-2c244a4f536a")
+	)
+	(fp_rect
+		(start -13.5 -4.88)
+		(end 5.5 7.12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8f6d1454-ddf2-481b-8932-0f21728d4ee7")
+	)
+	(fp_rect
+		(start -13.5 -4.38)
+		(end -27.5 6.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2543987d-34ec-4703-943d-839cb78970aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.54 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0aa56526-2b4f-441c-8d90-5295f8fcd548")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -6.36 -3.96)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e13e5a0c-f364-4a94-8726-d5e99f2be197")
+	)
+	(pad "" np_thru_hole circle
+		(at -6.36 6.2)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f65ce792-04ac-41c8-8211-70c9050cecc8")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.8 -3.96)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "93b58bdc-5c6f-46f1-a835-a614ffd732bd")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.8 6.2)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "791e1f39-1c46-4e50-90c5-c75f5830753b")
+	)
+	(pad "1" thru_hole circle
+		(at 0 1.12)
+		(size 3.5 3.5)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d9718df-f959-4170-9a1b-425cfef6d362")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Morit/OneDrive/Dokumente/KiCad/9.0/3dmodels/Banana_Cliff_FCR7350GREY_S16N-PC_Horizontal.step"
+		(offset
+			(xyz 0 -1.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

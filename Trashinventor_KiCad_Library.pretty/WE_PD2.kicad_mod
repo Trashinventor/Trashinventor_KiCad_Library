@@ -1,0 +1,142 @@
+(footprint "WE_PD2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.5 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8e0d0c4e-e73a-471d-9f91-dbfdec41fd6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WE_PD2"
+		(at -1.5 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c40e4488-0f08-456d-a0e8-606024e987f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19ef27f0-1d16-4133-900d-19eee4fe1e1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "233c1937-551b-4199-b3bb-6e375e8312e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.5 -4.5)
+		(end 4.5 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ec8f68e7-7294-4d92-96b7-33cc4d5d05de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "64fc7347-71a9-41d5-8611-27645adf3683")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -2.55)
+		(size 8 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_left top_right)
+		(uuid "de894554-102e-444a-ad77-1b06fdec79c3")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.55 180)
+		(size 8 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_left top_right)
+		(uuid "0942238c-b1f0-4297-ab20-f5321a50a8fc")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "9cef14a0-7737-4e29-88d7-88e198723288")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4.5 -4.5) (xy 4.5 -4.5) (xy 4.5 4.5) (xy -4.5 4.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_TDK_SLF6025.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.5 1.5 1.7)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

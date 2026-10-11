@@ -1,0 +1,301 @@
+(footprint "1.54_Zoll_OLED_128x64"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7eddfa7-8302-4a45-8971-8c892fb8aee1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1.54_Zoll_OLED_128x64"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78fb0c91-72c9-48a2-941c-f49503e0ec67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "252b7e69-57be-4d0a-9898-f560a5d69f3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "199d9cf4-4fda-416b-bc13-6c8dddc9062f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -21.5 -13.5)
+		(end 21.5 -13.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62cafb8f-0311-4774-9950-90f86d99bd09")
+	)
+	(fp_line
+		(start -21.5 13.5)
+		(end 21.5 13.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ecd960d-4f9c-4ca4-a9fa-2edd3fdb2bd4")
+	)
+	(fp_line
+		(start -11.5 19)
+		(end -7.5 14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b9412b6-994e-4b92-ac38-abdca78e8ef4")
+	)
+	(fp_line
+		(start -7.5 14)
+		(end 7.5 14)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40f0fcd5-33ba-4b71-a429-a39dec585948")
+	)
+	(fp_line
+		(start 11.5 19)
+		(end 7.5 14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "476c6e83-f77e-40b8-b4d7-57f509e6138f")
+	)
+	(fp_rect
+		(start -21.5 -19)
+		(end 21.5 19)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5625deac-f09d-4049-b6b8-6e36521eb3cf")
+	)
+	(fp_text user "SDA"
+		(at 3.239205 -22.637634 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7f97ef75-0a24-4517-a450-3b6c9797f78c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -4.470558 -22.637634 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a1dca8c3-dcc3-4fcf-a014-f668756ccab0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at 0.669284 -22.637634 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b6543ea5-a49c-4590-a0ed-17569e2a4a24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VCC"
+		(at -1.900637 -22.637634 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d711a8a5-b113-445e-a627-69dad4e887bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b2dddc94-df34-4727-9e76-61f158f7c378")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -18.5 -16.5)
+		(size 1.905 1.905)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "461a08c2-403f-4e86-b5a8-f5ac849dabc2")
+	)
+	(pad "" np_thru_hole circle
+		(at -18.5 16.5)
+		(size 1.905 1.905)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "243e0ae2-ba3b-443d-b9f0-63a6196ef6b2")
+	)
+	(pad "" np_thru_hole circle
+		(at 18.5 -16.5)
+		(size 1.905 1.905)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7ae68511-7318-4cee-9383-28ccde5c6187")
+	)
+	(pad "" np_thru_hole circle
+		(at 18.5 16.5)
+		(size 1.905 1.905)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7cca29a8-3943-4b6b-8873-54844e78cbe1")
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 -17 90)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25cb70bc-13f6-4907-a30a-dbdb17c0b6ed")
+	)
+	(pad "2" thru_hole oval
+		(at -1.27 -17 90)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24dd1763-153d-43c3-aa10-a084e32c6228")
+	)
+	(pad "3" thru_hole oval
+		(at 1.27 -17 90)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5752e713-263f-4670-b160-835917c7fe14")
+	)
+	(pad "4" thru_hole oval
+		(at 3.81 -17 90)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5270ef73-5577-4f76-afeb-32366023c76a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "8e1b577f-78bc-46cb-81b8-0740a5547c79")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -21.5 -19) (xy 21.5 -19) (xy 21.5 19) (xy -21.5 19)
+			)
+		)
+	)
+	(group ""
+		(uuid "b6894651-0858-4bd4-87ab-f4043061d567")
+		(members "1ecd960d-4f9c-4ca4-a9fa-2edd3fdb2bd4" "243e0ae2-ba3b-443d-b9f0-63a6196ef6b2"
+			"24dd1763-153d-43c3-aa10-a084e32c6228" "25cb70bc-13f6-4907-a30a-dbdb17c0b6ed"
+			"40f0fcd5-33ba-4b71-a429-a39dec585948" "461a08c2-403f-4e86-b5a8-f5ac849dabc2"
+			"476c6e83-f77e-40b8-b4d7-57f509e6138f" "5270ef73-5577-4f76-afeb-32366023c76a"
+			"5625deac-f09d-4049-b6b8-6e36521eb3cf" "5752e713-263f-4670-b160-835917c7fe14"
+			"5b9412b6-994e-4b92-ac38-abdca78e8ef4" "62cafb8f-0311-4774-9950-90f86d99bd09"
+			"78fb0c91-72c9-48a2-941c-f49503e0ec67" "7ae68511-7318-4cee-9383-28ccde5c6187"
+			"7cca29a8-3943-4b6b-8873-54844e78cbe1" "7f97ef75-0a24-4517-a450-3b6c9797f78c"
+			"8e1b577f-78bc-46cb-81b8-0740a5547c79" "a1dca8c3-dcc3-4fcf-a014-f668756ccab0"
+			"b2dddc94-df34-4727-9e76-61f158f7c378" "b6543ea5-a49c-4590-a0ed-17569e2a4a24"
+			"d711a8a5-b113-445e-a627-69dad4e887bd" "f7eddfa7-8302-4a45-8971-8c892fb8aee1"
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Morit/OneDrive/Dokumente/KiCad/9.0/3dmodels/1.54” i2c oled.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
